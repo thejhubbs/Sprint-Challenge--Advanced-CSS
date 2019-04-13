@@ -1,3 +1,15 @@
+.basic-button {
+  color: black;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 2em;
+  display: inline-block;
+  border-radius: 8px;
+}
+.remove-link-formatting {
+  color: black;
+  text-decoration: none;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -175,8 +187,8 @@ p {
   margin: 15px auto 0;
 }
 #top-nav a {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 footer {
   color: #22283B;
@@ -232,6 +244,25 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  color: black;
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 2em;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: black;
+  color: white;
+}
+.home .walk .walk-text .btn:hover {
+  text-decoration: none;
+  padding: 15px 25px;
+  font-size: 2em;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: white;
+  color: black;
 }
 .home .walk .walk-img {
   width: 46%;
