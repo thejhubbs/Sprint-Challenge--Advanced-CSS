@@ -1,1 +1,25 @@
 // Navigation code here
+#top-nav {
+    text-align:center;
+    padding: 10px;
+    background-color: lighten(grey, 40%);
+
+    h1 {
+        font-size: 3.6em;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 500px;
+        @media @phone {
+          width: 100%;
+        }
+        margin: 15px auto 0;
+    }
+    
+    a {
+        .remove-link-formatting;
+    }
+
+}
